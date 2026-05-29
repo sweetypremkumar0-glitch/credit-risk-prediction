@@ -1,0 +1,46 @@
+{
+  "accuracy": 0.72,
+  "roc_auc": 0.7757,
+  "pr_auc": 0.6548,
+  "f1_bad": 0.5556,
+  "f1_good": 0.7956,
+  "cv_roc_mean": 0.7649,
+  "cv_roc_std": 0.0475,
+  "confusion_matrix": [
+    [
+      109,
+      31
+    ],
+    [
+      25,
+      35
+    ]
+  ],
+  "classification_report": {
+    "Good Risk": {
+      "precision": 0.8134328358208955,
+      "recall": 0.7785714285714286,
+      "f1-score": 0.7956204379562044,
+      "support": 140.0
+    },
+    "Bad Risk": {
+      "precision": 0.5303030303030303,
+      "recall": 0.5833333333333334,
+      "f1-score": 0.5555555555555556,
+      "support": 60.0
+    },
+    "accuracy": 0.72,
+    "macro avg": {
+      "precision": 0.6718679330619629,
+      "recall": 0.680952380952381,
+      "f1-score": 0.67558799675588,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.7284938941655359,
+      "recall": 0.72,
+      "f1-score": 0.7236009732360098,
+      "support": 200.0
+    }
+  }
+}
